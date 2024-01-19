@@ -7,7 +7,7 @@ import java.util.Optional;
 import java.util.function.Function;
 
 /**
- * Optional for null value returns NPE in fina
+ * Optional for null value returns NPE in finAny()
  */
 public class FindAny {
 

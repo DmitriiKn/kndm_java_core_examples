@@ -1,7 +1,10 @@
 package kndm.java.examples.junit.service;
 
 import kndm.java.examples.junit.dto.User;
+import kndm.java.examples.junit.persistance.facade.UserFacade;
 import org.junit.jupiter.api.*;
+import org.mockito.Mock;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -19,7 +22,7 @@ public class UserServiceTest {
     @BeforeEach
     void prepare(){
         System.out.println("Before each: " + this);
-        userService = new UserService();
+        userService = new UserService(Mockito.mock(UserFacade.class));
     }
 
     @Test

@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/r2dbc_test
+    username: postgres
+    password:
+    driver: org.postgresql.Driver
+  sql:
+    init:
+      mode: always

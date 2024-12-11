@@ -1,4 +1,4 @@
-package ru.kndm.persistence.entities;
+package ru.kndm.persistence.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;

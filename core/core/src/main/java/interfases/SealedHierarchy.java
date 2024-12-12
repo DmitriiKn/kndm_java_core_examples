@@ -24,11 +24,11 @@ non-sealed class DoubleTriangle implements Triangle {
 
 /**
  * Hierarchy error here because Triangle doesn't permit to TripleTriangle
- */
-non-sealed class TripleTriangle implements Triangle {
-    @Override
-    public void draw() {
-    }
-}
+// */
+//non-sealed class TripleTriangle implements Triangle {
+//    @Override
+//    public void draw() {
+//    }
+//}
 
 
